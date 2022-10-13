@@ -1,0 +1,124 @@
+/* common css */
+/* background-image: url(../img/hero-bg.png);
+background-position: bottom;
+background-size: cover;
+background-repeat: no-repeat; */
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../images/Capture.JPG);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 575px;
+}
+.container{
+  width: 1320px;
+}
+
+.Signup{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #fff;
+  border-radius: 7px;
+}
+.sing_form {
+  margin-left:20px;
+}
+h1{
+color: #1c1e21;
+font-family: SFProDisplay-Bold Helvetica, Arial, sans-serif;
+margin-bottom: 5px;
+}
+p{
+color: #606770;
+font-family: SFProDisplay-Bold Helvetica, Arial, sans-serif;
+}
+.input_p{
+  padding: 25px 0 20px 0;
+}
+input{
+padding: 10px;
+color: #1c1e21;
+font-family: SFProDisplay-Bold Helvetica, Arial, sans-serif;
+font-size: 15px;
+border-radius: 5px;
+box-shadow: none;
+background-color:#f5f6f7;
+border: 1px solid #ccd0d5 ;
+}
+.first_input{
+padding-right: 20px;
+margin-right: 10px;
+}
+.second_input{
+padding-right: 17px;
+margin-right: 10px;
+}
+.third_input{
+  padding-right: 255px;
+  margin-top: 10px;
+}
+h4{
+  color: #606770;
+  font-family: SFProDisplay-Bold Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+
+}
+.input_date{
+  padding-right: 320px;
+  margin-bottom: 14px;
+}
+.g_li{
+  margin-right: 10px;
+  margin-bottom: 14px;
+  padding: 10px;
+  color: #1c1e21;
+  font-family: SFProDisplay-Bold Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: none;
+  background-color:#f5f6f7;
+  border: 1px solid #ccd0d5 ;
+  display: inline-block;
+
+}
+.g_li label{
+margin-right:65px;
+}
+h5{
+  color: #606770;
+  font-family: SFProDisplay-Bold Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  margin-right: 21px;
+}
+button{
+  color: white;
+  background-color: #00a400;
+  font-family: SFProDisplay-Bold Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  padding: 0 32px;
+  height: 36px;
+  min-width: 195px;
+  cursor: pointer;
+}
+.button_m{
+  margin: 20px 0 0 125px;
+}
+a{
+  text-decoration: none;
+}
